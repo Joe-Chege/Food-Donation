@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 
-# MongoDB conncetion details
+# MongoDB connection details
 MONGO_DETAILS = "mongodb://localhost:27017"
 
 # Establish connection to MongoDB server
@@ -14,3 +14,4 @@ donor_collection = database.get_collection("donors")
 recipient_collection = database.get_collection("recipients")
 donation_collection = database.get_collection("donations")
 user_collection = database.get_collection("users")
+review_collection = database.get_collection("reviews")
