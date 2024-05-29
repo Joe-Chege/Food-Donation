@@ -3,7 +3,7 @@
 This document describes the schema of our MongoDB database. These collections will support the main functionalities of our food donation platform, including user management, donation management, request management, communication management, data analytics, and system settings.
 
 ## Users Collection
-
+This app is great
 Stores personal information and history of users.
 
 **Fields:**
